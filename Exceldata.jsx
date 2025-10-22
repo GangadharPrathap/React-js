@@ -26,6 +26,7 @@ function ExcelReader({ transform }) { // Destructure 'transform' from props
         const json = XLSX.utils.sheet_to_json(worksheet);
 
         setExcelData(json); // Update raw data state
+        console.log(json)
       };
       reader.readAsArrayBuffer(file);
     }

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
-import Exceldata from './Exceldata.jsx';
+import exceldata from './Exceldata.jsx';
 const ApexChart = () => {
         const [state, setState] = React.useState({
 
             series: [{
-              data: Exceldata,
+              data: exceldata,
             }],
             options: {
               chart: {
@@ -40,4 +40,4 @@ const ApexChart = () => {
           </div>
         );
       }
-export default ApexCharts;
+export default ApexChart;
