@@ -1,0 +1,2 @@
+today class was about the backend introduction:
+Topics which are going to be covered : call back----async/await
